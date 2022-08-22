@@ -24,26 +24,3 @@ function changetime() {
   }
 }
 setInterval(changetime, 1000);
-
-/*
-let date = new Date();
-let hour = date.getHours();
-let minutes = date.getMinutes();
-let seconds = date.getSeconds();
-let weekday = date.getDay();
-let day = date.getDate();
-let month = date.getMonth();
-let year = date.getFullYear();
-
-var wkday = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-][weekday];
-
-console.log(wkday, day, month, year);
-*/
